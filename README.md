@@ -1,8 +1,4 @@
-a = 2.5;
-x = 3.11;
+R = 0.2;
+V = (4/3) * %pi * R^3;
 
-y = log(1.5 * x);          // ln = log в Scilab
-z = atan(cos(x^2));        // arctg = atan, cos от x² (без a)
-
-disp("y = " + string(y));
-disp("z = " + string(z));
+disp("V = " + string(V));
