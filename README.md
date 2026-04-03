@@ -1,19 +1,16 @@
-Private Sub cmdCos_Click()
-    txt3.Text = Cos(Val(txt1.Text))
-End Sub
-
-Private Sub cmdSin_Click()
-    txt3.Text = Sin(Val(txt1.Text))
-End Sub
-
-Private Sub cmdTan_Click()
-    txt3.Text = Tan(Val(txt1.Text))
-End Sub
-
-Private Sub cmdSqr_Click()
-    txt3.Text = Sqr(Val(txt1.Text))
-End Sub
-
-Private Sub cmdLog_Click()
-    txt3.Text = Log(Val(txt1.Text))
-End Sub
+1 ТЕХНИЧЕСКОЕ ЗАДАНИЕ	5
+2 ТЕОРЕТИЧЕСКАЯ ЧАСТЬ	7
+2.1 Классы счетчиков импульсов	7
+2.2 СТ Счетчик	8
+2.3 Вычитающий счетчик	12
+2.4 Счетчик с произвольным модулем	15
+2.5 Реверсивные счетчики	16
+2.6 Счетчики с предварительной установкой	17
+2.7 Счетчик с параллельным переносом	18
+2.8 Счетчики с последовательным переносом	20
+3 ПРАКТИЧЕСКАЯ ЧАСТЬ	22
+3.1 Построение схемы в Multisim	22
+3.2 Сборка схемы на макетной плате	24
+4 ГРАФИЧЕСКАЯ ЧАСТЬ	27
+ЗАКЛЮЧЕНИЕ	28
+СПИСОК ИСПОЛЬЗОВАННЫХ ИСТОЧНИКОВ	29
