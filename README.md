@@ -1,1 +1,12 @@
-https://docs.google.com/presentation/d/1BtlvLBlUAovhAOFqbzMN8jzMifIl3ikJ/edit?usp=drivesdk&ouid=114523517803382395483&rtpof=true&sd=true
+ score = int(input("Введите количество баллов: "))
+
+if score >= 90:
+    print("Гриффиндор")
+elif score >= 70:
+    print("Когтевран")
+elif score >= 50:
+    print("Пуффендуй")
+elif score >= 0:
+    print("Слизерин")
+else:
+    print("Некорректное количество баллов")
