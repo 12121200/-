@@ -1,6 +1,6 @@
-damage = int(input("Введите силу удара: "))
+password = input("Введите пароль: ")
 
-if damage > 100:
-    print("Критический удар!")
+if password == "Slytherin":
+    print("Доступ разрешен")
 else:
-    print("Обычная атака")
+    print("Доступ запрещен")
