@@ -1,12 +1,6 @@
- score = int(input("Введите количество баллов: "))
+damage = int(input("Введите силу удара: "))
 
-if score >= 90:
-    print("Гриффиндор")
-elif score >= 70:
-    print("Когтевран")
-elif score >= 50:
-    print("Пуффендуй")
-elif score >= 0:
-    print("Слизерин")
+if damage > 100:
+    print("Критический удар!")
 else:
-    print("Некорректное количество баллов")
+    print("Обычная атака")
