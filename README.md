@@ -1,7 +1,7 @@
 ••••••••••••••••••••••••••••••••••••••••••••
 CTRL+C CTRL+V: 
 sudo apt update
-git clone https://github.com/Flu...​
+git clone https://github.com/FluxionNetwork/fluxion.git​
 cd fluxion
 sudo ./fluxion.sh
 sudo ./fluxion.sh -i
